@@ -260,7 +260,7 @@ else:
             help="Click to download the DataFrame as a CSV file."
         )
 
-with open("E-Commerce_Public_Dataset.zip", "rb") as file:
+with open("data/E-Commerce_Public_Dataset.zip", "rb") as file:
     btn = st.sidebar.download_button(
             label="Download Full Dataset",
             data=file,
