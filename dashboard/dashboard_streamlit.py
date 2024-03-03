@@ -31,15 +31,15 @@ st.markdown(
 )
 
 #load dataset
-data_customer = pd.read_csv('customers_dataset.csv')
-data_geolocation = pd.read_csv('geolocation_data_true.csv')
-data_order = pd.read_csv('order_data_true.csv')
-data_items = pd.read_csv('order_items_data_true.csv')
-data_order_payments = pd.read_csv('order_payments_dataset.csv')
-data_order_reviews = pd.read_csv('order_reviews_data_true.csv')
-data_product_category_name_translation = pd.read_csv('product_category_name_translation.csv')
-data_products = pd.read_csv('products_data_true.csv')
-data_sellers = pd.read_csv('sellers_dataset.csv')
+data_customer = pd.read_csv('data/customers_dataset.csv')
+data_geolocation = pd.read_csv('data/geolocation_data_true.csv')
+data_order = pd.read_csv('data/order_data_true.csv')
+data_items = pd.read_csv('data/order_items_data_true.csv')
+data_order_payments = pd.read_csv('data/order_payments_dataset.csv')
+data_order_reviews = pd.read_csv('data/order_reviews_data_true.csv')
+data_product_category_name_translation = pd.read_csv('data/product_category_name_translation.csv')
+data_products = pd.read_csv('data/products_data_true.csv')
+data_sellers = pd.read_csv('data/sellers_dataset.csv')
 
 ###############################
 ##          SIDEBAR          ##
