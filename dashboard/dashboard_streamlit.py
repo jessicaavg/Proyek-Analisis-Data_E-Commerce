@@ -93,7 +93,7 @@ if st.sidebar.button('Visualization Data'):
     st.markdown("<h3 style='text-align: center;'>Rata-Rata Jumlah Pembelian per Bulan Pada Tahun 2018</h3>", unsafe_allow_html=True)
     st.subheader("")
 
-    order_data = pd.read_csv("order_data_true.csv")
+    order_data = pd.read_csv("data/order_data_true.csv")
     order_data['order_purchase_timestamp'] = pd.to_datetime(order_data['order_purchase_timestamp'])
 
     start_date = pd.to_datetime('2018-01-01')
