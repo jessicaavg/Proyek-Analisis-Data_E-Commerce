@@ -44,7 +44,7 @@ data_sellers = pd.read_csv('data/sellers_dataset.csv')
 ###############################
 ##          SIDEBAR          ##
 ###############################
-data_customer = pd.read_csv('customers_dataset.csv')
+data_customer = pd.read_csv('data/customers_dataset.csv')
 st.sidebar.button("View Data")
 
 if st.sidebar.button('Visualization Data'):
