@@ -45,7 +45,7 @@ data_sellers = pd.read_csv('data/sellers_dataset.csv')
 ##          SIDEBAR          ##
 ###############################
 st.sidebar.image('dashboard/analytics_data.png')
-st.subheader('What do you want to explore?')
+
 data_customer = pd.read_csv('data/customers_dataset.csv')
 st.sidebar.button("View Data")
 
